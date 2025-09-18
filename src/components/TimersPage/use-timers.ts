@@ -13,15 +13,9 @@ export function useTimers() {
     }
   }, [timers.length]);
 
-  const clearAllTimers = useCallback(() => {
-    setTimers([]);
-  }, []);
-
   return {
     timers,
     addTimer,
     removeLastTimer,
-    clearAllTimers,
-    timerCount: timers.length,
   };
 }

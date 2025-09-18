@@ -9,7 +9,6 @@ export function TimersPage() {
   return (
     <div className="multi-timer-app">
       <div className="multi-timer-header">
-        <h1 className="multi-timer-title">Multi Timer</h1>
         <div className="timer-controls">
           <button
             onClick={addTimer}
